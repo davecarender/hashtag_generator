@@ -1,0 +1,61 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #2c2b2b;
+}
+
+.main-container {
+    padding: 4rem 24rem;
+    max-width: 120rem;
+    margin: auto;
+    color: #ffffff;
+}
+
+.options-row, .summary-row {
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    padding: 1.6rem;
+    align-items: flex-end;
+}
+
+.options-amount-label {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.options-amount-input, .generate-button {
+    font-size: 2.4rem;
+    padding: 1.6rem;
+    width: 15rem;
+    text-align: center;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.generate-button {
+    border: none;
+    background-color: #b29494;
+    height: 6.4rem;
+    width: 18.6rem;
+}
+
+/* BEGIN hide number input arrows */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* END hide number input arrows */

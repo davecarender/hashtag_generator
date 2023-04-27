@@ -65,6 +65,7 @@ export const artHashtags = [
     '#ipad',
     '#photoshop', 
     '#adobe',
-    '#instagood', 
+    '#instagood',
+    '#photoshopART', 
     '#creative',    
 ];

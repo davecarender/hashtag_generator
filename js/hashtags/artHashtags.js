@@ -63,6 +63,7 @@ export const artHashtags = [
     '#doodle',
     '#graphicdesign', 
     '#ipad',
+    '#procreateart',
     '#photoshop', 
     '#adobe',
     '#instagood',

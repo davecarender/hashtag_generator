@@ -15,33 +15,33 @@
     <div class="options-row">
       <label class="options-amount-label">
         Perm
-        <input id="perm-input" class="options-amount-input" type="number">
+        <input data-cy="cy-perm-input" id="perm-input" class="options-amount-input" type="number">
       </label>
       <label class="options-amount-label">
         MTG
-        <input id="mtg-input" class="options-amount-input" type="number">
+        <input data-cy="cy-mtg-input" id="mtg-input" class="options-amount-input" type="number">
       </label>
       <label class="options-amount-label">
         Art
-        <input id="art-input" class="options-amount-input" type="number">
+        <input data-cy="cy-art-input" id="art-input" class="options-amount-input" type="number">
       </label>
       <label class="options-amount-label">
         Etsy
-        <input id="etsy-input" class="options-amount-input" type="number">
+        <input data-cy="cy-etsy-input" id="etsy-input" class="options-amount-input" type="number">
       </label>
     </div>
     <div class="summary-row">
       <label class="options-amount-label total">
         Total
-        <input id="summary-input" disabled class="options-amount-input" type="number">
+        <input data-cy="cy-summary-total" id="summary-input" disabled class="options-amount-input" type="number">
       </label>
-      <button id="generate-button" class="generate-button">Generate</button>
+      <button data-cy="cy-generate-button" id="generate-button" class="generate-button">Generate</button>
     </div>
     <div class="copy-row">
       <textarea id="hashlist-text-area" rows="10"></textarea>
       <div class="copy-button-row">
         <button id="clear-button" class="generate-button">Clear</button>
-        <button id="copy-button" class="generate-button">Copy</button>
+        <button data-cy="cy-copy-button" id="copy-button" class="generate-button">Copy</button>
       </div>
     </div>
 

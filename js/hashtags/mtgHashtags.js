@@ -1,4 +1,4 @@
-export const mtgHashtags = [
+const mtgHashtags = [
   '#cardgame',
   '#commander',
   '#CustomMTG',

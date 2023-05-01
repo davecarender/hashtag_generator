@@ -1,4 +1,4 @@
-export const artHashtags = [
+const artHashtags = [
     '#DigitalArt',
     '#digitalart_id',
     '#digitalart_network',

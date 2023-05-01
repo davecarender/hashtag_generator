@@ -1,4 +1,4 @@
-export const permHashtags = [
+const permHashtags = [
   '#gopencyprep',
   '#noxmortua',
   '#noxmortuaMTG'

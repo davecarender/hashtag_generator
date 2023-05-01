@@ -1,4 +1,4 @@
-export const etsyHashtags = [
+const etsyHashtags = [
     '#etsy',
     '#etsyshop',
     '#etsyseller',

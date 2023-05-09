@@ -16,6 +16,7 @@ const mtgHashtags = [
   '#magicthegatheringedh',
   '#matherscollection',
   '#mtg',
+  '#mtgtokenartist',
   '#mtgaddict',
   '#mtgaddicts',
   '#mtgalter',
